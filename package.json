@@ -1,0 +1,26 @@
+{
+  "name": "server-inspector-bot",
+  "version": "1.0.0",
+  "description": "Bot do sprawdzania serwerów Discord i wysyłania raportów",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "server-inspector"
+  ],
+  "author": "Twoje Imię",
+  "license": "MIT"
+}
